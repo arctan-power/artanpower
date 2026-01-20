@@ -4,9 +4,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  // For GitHub Pages user/org site (arctan-power.github.io) - no basePath needed
-  basePath: '',
-  assetPrefix: '',
+  // For GitHub Pages project site (arctan-power.github.io/artanpower)
+  basePath: process.env.NODE_ENV === 'production' ? '/artanpower' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/artanpower' : '',
 };
 
 module.exports = nextConfig;
