@@ -1,3 +1,3 @@
 // Base path for GitHub Pages
-// For project site: arctan-power.github.io/artanpower
-export const BASE_PATH = '/artanpower';
+// Empty for user/org sites (arctan-power.github.io)
+export const BASE_PATH = '';

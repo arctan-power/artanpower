@@ -5,7 +5,7 @@ export const metadata: Metadata = {
   title: "Arctan Power - Securing & Optimizing Critical Energy Infrastructure",
   description: "AI-powered grid intelligence with quantum-grade security for modern utilities and power systems",
   icons: {
-    icon: "/artanpower/icon.png",
+    icon: "/icon.png",
   },
 };
 
