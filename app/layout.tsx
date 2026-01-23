@@ -1,7 +1,8 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const BASE_PATH = process.env.NODE_ENV === 'production' ? '/artanpower' : '';
+// Custom domain configured - no basePath needed
+const BASE_PATH = '';
 
 export const metadata: Metadata = {
   title: "Arctan Power - Securing & Optimizing Critical Energy Infrastructure",
